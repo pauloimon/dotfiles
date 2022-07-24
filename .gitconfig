@@ -1,0 +1,6 @@
+[user]
+	name = Paulo Imon
+[pull]
+	rebase = false
+[init]
+	defaultBranch = develop
