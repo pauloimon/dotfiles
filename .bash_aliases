@@ -1,7 +1,7 @@
 # ---
 # Docker
 # ---
-alias docker-tmp='docker run --rm -itv $(pwd):/usr/src/app -w /usr/src/app --network host'
+alias docker-tmp='docker run --rm -it -v $(pwd):/usr/src/app -w /usr/src/app -u $(id -u):$(id -g) --network host'
 
 # ---
 # Laravel Pint
