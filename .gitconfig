@@ -1,6 +1,6 @@
 [user]
-	name = Paulo Imon
+        name = Paulo Imon
 [pull]
-	rebase = false
+        rebase = false
 [init]
-	defaultBranch = develop
+        defaultBranch = main
