@@ -12,9 +12,3 @@ alias pint='./vendor/bin/pint'
 # Laravel Sail
 # ---
 alias sail='[ -f sail ] && sh sail || sh ./vendor/bin/sail'
-
-# ---
-# NordVPN
-# ---
-alias nordvpn-br='nordvpn connect Brazil'
-alias nordvpn-sp='nordvpn connect Sao_Paulo'
