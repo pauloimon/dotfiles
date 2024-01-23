@@ -1,7 +1,7 @@
 [user]
-        name = Paulo Imon
-        email = 3463932+pauloimon@users.noreply.github.com
+	name = Paulo Imon
+	email = 3463932+pauloimon@users.noreply.github.com
 [pull]
-        rebase = false
+	rebase = false
 [init]
-        defaultBranch = main
+	defaultBranch = main
