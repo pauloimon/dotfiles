@@ -3,15 +3,15 @@
 case "$1" in
     "--macos")
         echo "> Copying dotfiles for macOS.";
-        cp -r ./macos ~;
-        cp -r ./system-agnostic ~;
+        cp -r ./macos/. ~;
+        cp -r ./system-agnostic/. ~;
         rm ~/.gitkeep;
         echo "> Done!";
         ;;
     "--linux")
         echo "> Copying dotfiles for Linux.";
-        cp -r ./linux ~;
-        cp -r ./system-agnostic ~;
+        cp -r ./linux/. ~;
+        cp -r ./system-agnostic/. ~;
         rm ~/.gitkeep;
         echo "> Done!";
         ;;
